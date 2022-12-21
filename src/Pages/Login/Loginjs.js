@@ -5,9 +5,6 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Loginjs = () => {
 
-
-
-
     const { login } = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
@@ -71,7 +68,7 @@ const Loginjs = () => {
                         <label className="label">
                             <span className="label-text">Password</span>
                         </label>
-                        <input type="text" name='password' placeholder="password" className="input input-bordered" />
+                        <input type="password" name='password' placeholder="password" className="input input-bordered" />
                         <label className="label">
                             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                         </label>
